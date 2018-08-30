@@ -1,0 +1,48 @@
+ .slide {
+   position: absolute;
+   left: 10px;
+   top: 0px;
+   width: 100%;
+   z-index: 1;
+   opacity: 0;
+   transition: opacity 0.5s;
+ }
+
+ .active-slide {
+   opacity: 1;
+   z-index: 2;
+ }
+
+ .is-dark {
+   align-self: center;
+ }
+
+ .content.quiz-div {
+   padding: 25px;
+   margin: 25px;
+ }
+
+ .btnctrl {
+   padding: 25px;
+   margin: 25px;
+ }
+
+ .hero.is-primary {
+   background-color: slategray;
+   color: #fff;
+   border-radius: 28px;
+ }
+
+#quiz {
+ /*   padding: 30px;
+    margin: 40px;*/
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+ #results {
+   text-align: center;
+   font-size: 25px;
+   font-weight: 700;
+ }
